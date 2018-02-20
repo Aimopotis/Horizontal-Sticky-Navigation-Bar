@@ -1,0 +1,40 @@
+*{
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+  background-color: #555;
+  position: sticky;
+  top: 0;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+li a:hover:not(.active){
+  background-color: #111;
+}
+
+.active{
+  background-color: rgb(44, 112, 238);
+}
+
+p{
+  margin-top: 1em;
+}
